@@ -1,6 +1,9 @@
 # Azure ML End-to-end lab
 
-This repository provides the required instructions and code pieces (Jupyter Notebooks) for the Azure ML hands-on labs. Feel free to clone or fork as a working head start for training your own model.
+This repository provides the required instructions and code pieces (Jupyter Notebooks) for the Azure ML hands-on labs. 
+
+Feel free to clone or fork as a working head start for training your own model.
 
 Disclaimer:
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
