@@ -9,7 +9,7 @@ In order to take advantage of the wide array of functionalities that Azure ML Se
 ## Provisioning Azure ML Service
 
 To provision the Azure ML Service, navigate to the following URL and log in using your company or personal account: http://portal.azure.com.
-**Note that in order to be able to follow the steps outlined below, you need to have sufficient permission in an Azure subscription of your choice to deploy new resources.** If you don't know whether you have the required permissions or not - you are about to find out ... :)
+**Note that in order to be able to follow the steps outlined below, you need to have sufficient permission in an Azure subscription of your choice to deploy new resources.** If you don't know whether you have the required permissions or not - you are about to find out ... :wink:
 
 1. In the Azure Portal, click the "Create a resource" button located in the top left corner.
 
@@ -27,7 +27,7 @@ To provision the Azure ML Service, navigate to the following URL and log in usin
 
 5. You will now need to fill in some information to configure your Azure ML Service.
 
-<img src = "/images/aml-details.jpg" width = 450>
+<img src = "/images/aml-details.jpg" width = 600>
 
 * Type in a workspace name for your workspace. This name you will use in later stages of the labs when interacting with components from the Azure ML Service.
 
@@ -39,7 +39,7 @@ To provision the Azure ML Service, navigate to the following URL and log in usin
 
 * Ensure that you specify Enterprise for the workspace edition to benefit from the full set of functionality. More information on which features are available in basic vs. enterprise edition can be found [here](https://azure.microsoft.com/en-us/pricing/details/machine-learning/).
 
-<img src = "/images/create-button.jpg" width = 150>
+<img src = "/images/create-button.jpg" width = 75>
 
 You can now click the bell icon in the navigation bar across the top of the Azure portal where you will see that the deployment is under way.
 
@@ -51,13 +51,13 @@ This process will typically only take 2-3 minutes to complete. Once completed, y
 
 On the Overview page of the newly provisioned Azure ML Service, now click the following button to be taken the Azure ML studio environment:
 
-<img src = "/images/launch-now.jpg" width = 500>
+<img src = "/images/launch-now.jpg" width = 600>
 
 ## Navigating Azure ML Studio
 
 Over the course of the following labs, you will use various aspects of the Azure ML studio. The main navigation elements are displayed on the left. Please note that in your environment the lower middle part of the screen will be empty since you have just now created your Azure ML studio.
 
-<img src = "/images/aml-studio-home.jpg" width = 500>
+<img src = "/images/aml-studio-home.jpg" width = 700>
 
 This is the top-level resource for Azure Machine Learning service, also referred to as the Azure ML workspace, providing a centralized place to work with all the artifacts you create when you use Azure Machine Learning.
 The taxonomy of the workspace is best explained in the following screenshot and more information can be found in [this article](https://docs.microsoft.com/en-us/azure/machine-learning/concept-workspace).
