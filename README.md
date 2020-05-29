@@ -9,7 +9,7 @@ The lab includes the following sections:
 * [Introduction to Azure ML and setting up workspace](0_Intro_Azure_ML.md)
 * [Lab 1 - Creating a first experiment with Azure ML Designer](1_Designer.md)
 * [Lab 2 - Creating a Compute Instance](2_Compute_Instance.md)
-* [Lab 3 - Creating a dataset](3 Creating dataset.ipynb)
+* [Lab 3 - Creating a dataset](3_Creating_dataset.ipynb)
 * [Lab 4 - Model training and experiment logging](4_Model_Training_and_Experiment_Logging.ipynb)
 * [Lab 5 - Automated ML on Remote Compute](5_AutoML_Remote_Compute.ipynb)
 * [Lab 6 - Model deployment](6_Deploy.ipynb)

@@ -10,7 +10,7 @@ For the purpose of this lab, we will work with the Azure ML's [Compute Instance]
 
 To set up a Compute Instance, click “Compute” in the “Manage” section of the Azure ML studio.
 
-<img src = "/images/manage-compute.jpg" width = 300>
+<img src = "/images/manage-compute.jpg" width = 150>
 
 Ensure you are in the “Compute instances” tab. Then, click the New button to add a new Compute Instance to your workspace.
 
@@ -24,21 +24,21 @@ Click the VM type drop-down to browse the list of all available VM sizes and sel
 
 Note that bigger VMs with more memory and CPUs will result in higher charges to your Azure subscription. More information on VM pricing can be found here. The default VM size STANDARD_D3_V2 with 4 vCPUs and 14 GB of RAM will suffice for our lab. Please also ensure that you choose a VM size for which you still have quota left. In case you choose a VM type with 0 quota left, the provisioning will fail.
 
-<img src = "/images/ci-vm-sizes.jpg" width = 300>
+<img src = "/images/ci-vm-sizes.jpg" width = 700>
 
 Once an appropriate VM type has been selected, click the blue Create button to start the deployment process for the Compute Instance. 
 
-<img src = "/images/create-ci.jpg" width = 150>
+<img src = "/images/create-ci.jpg" width = 75>
 
 When the status has changed from *Creating* to *Running*, you may proceed to the next paragraph. If for whatever reason the status shows as *Stopped*, you can start the Compute Instance by selecting it to the left of the name column and then clicking **Start** from the menu bar above. 
 
 Lastly, when the status of the Notebook VM has changed to Running, click the Jupyter hyperlink that has now appeared. This will launch a separate browser tab or window that will bring you directly to the Jupyter Notebook environment of your Compute Instance.
 
-<img src = "/images/jupyter-link.jpg" width = 150>
+<img src = "/images/jupyter-link.jpg" width = 600>
 
 This should bring you to the Jupyter Notebook home page. Note that the Notebook VM also features an instance of R Studio. For this series of labs the focus will remain on python. 
 
-<img src = "/images/jupyter-home.jpg" width = 450>
+<img src = "/images/jupyter-home.jpg" width = 600>
 
 ## Adding required content to Jupyter Notebooks
 
@@ -46,7 +46,9 @@ Whilst you may also upload content manually via the Jupyter Notebook home page, 
 
 To do so, click the *New* button in the top right corner of the Jupyter home page and then select *Terminal*. This will open a separate tab in your browser with a terminal window. Once the terminal is ready, type in the following command and hit the *Enter* key on your keyboard to start the process:
 
-'git clone https://github.com/marcscho/amllab'
+```
+git clone https://github.com/marcscho/amllab
+```
 
 ## Next Steps
 
