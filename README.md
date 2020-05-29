@@ -10,9 +10,9 @@ The lab includes the following sections:
 * [Lab 1 - Creating a first experiment with Azure ML Designer](1_Designer.md)
 * [Lab 2 - Creating a Compute Instance](2_Compute_Instance.md)
 * [Lab 3 - Creating a dataset](3 Creating dataset.ipynb)
-* [Lab 4 - Model training and experiment logging](4 Model Training and Experiment Logging.ipynb)
-* [Lab 5 - Automated ML on Remote Compute](5 AutoML Remote Compute.ipynb)
-* [Lab 6 - Model deployment](6 Deploy.ipynb)
+* [Lab 4 - Model training and experiment logging](4_Model_Training_and_Experiment_Logging.ipynb)
+* [Lab 5 - Automated ML on Remote Compute](5_AutoML_Remote_Compute.ipynb)
+* [Lab 6 - Model deployment](6_Deploy.ipynb)
 
 At the end of the lab, please make sure you follow the instructions for [cleaning up your environment](Clean_up.pdf). This will make sure you will not incurr any further charges after the lab. 
 
