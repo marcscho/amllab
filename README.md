@@ -16,7 +16,7 @@ The lab includes the following sections:
 * [Lab 5 - Automated ML on Remote Compute](5_AutoML_Remote_Compute.ipynb)
 * [Lab 6 - Model deployment](6_Deploy.ipynb)
 
-Go ahead and click the first link of the list above to start with your first lab! 
+Go ahead and click the first link of the list above to start with your first lab! Once you have completed all labs, feel free to come back to this page and try out the optional labs below.
 
 ## Optional labs
 
@@ -42,6 +42,8 @@ In case you run into issues, consider executing the two following commands in in
 
 **At the end of the lab, please make sure you follow the instructions for [cleaning up your environment](Clean_up.pdf). This will make sure you will not incur any further charges after the lab.**
 
-Disclaimer:
+Note that you may skip the first section of deleting a Databricks cluster if you haven't provisioned one in the previous labs. 
+
+## Disclaimer:
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
