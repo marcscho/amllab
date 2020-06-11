@@ -46,7 +46,7 @@ Whilst you may also upload content manually via the Jupyter Notebook home page, 
 
 To do so, click the *New* button in the top right corner of the Jupyter home page and then select *Terminal*. 
 
-<img src = "/images/new-terminal.jpg" width = 450>
+<img src = "/images/new-terminal.jpg" width = 150>
 
 This will open a separate tab in your browser with a terminal window. Once the terminal is ready, type in the following command and hit the *Enter* key on your keyboard to start the process:
 
