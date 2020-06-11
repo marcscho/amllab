@@ -14,4 +14,4 @@ Also, please only walk through part 1 **Train regression model** and not part 2 
 
 ## Next steps
 
-You may now close this document and navigate back to the [main page](README.md) and open the next document for lab #2 in which you will explore Azure ML Designer. Alternatively, you can navigate directly to [Lab 2 - Compute Instance](1_Designer.md) to provision your Compute Instance in Azure ML.
+Once you have completed the steps outlined in the linked tutorial above, you may close this document by navigating back to the [main page](README.md) and open the next document for lab #2 for provisioning a Compute Instance. Alternatively, you can navigate directly to [Lab 2 - Compute Instance](2_Compute_Instance.md) from here.
