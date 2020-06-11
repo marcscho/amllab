@@ -97,3 +97,5 @@ In this lab you have set up your own Azure ML studio which provides the fundamen
 ## Next steps
 
 You may now close this document and navigate back to the main page and open the next document for lab #1 in which you will explore Azure ML Designer.
+
+[Lab 1 - Creating a first experiment with Azure ML Designer](1_Designer.md)
