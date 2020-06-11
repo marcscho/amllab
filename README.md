@@ -4,6 +4,8 @@ This repository provides the required instructions and code pieces (Jupyter Note
 
 Feel free to clone or fork as a working head start for training your own model.
 
+## Azure ML labs
+
 The lab includes the following sections:
 
 * [Introduction to Azure ML and setting up workspace](0_Intro_Azure_ML.md)
@@ -13,6 +15,8 @@ The lab includes the following sections:
 * [Lab 4 - Model training and experiment logging](4_Model_Training_and_Experiment_Logging.ipynb)
 * [Lab 5 - Automated ML on Remote Compute](5_AutoML_Remote_Compute.ipynb)
 * [Lab 6 - Model deployment](6_Deploy.ipynb)
+
+Go ahead and click the first link of the list above to start with your first lab! 
 
 ### Optional labs
 
@@ -36,7 +40,7 @@ In case you run into issues, consider executing the two following commands in in
 
 ## Clean up
 
-At the end of the lab, please make sure you follow the instructions for [cleaning up your environment](Clean_up.pdf). This will make sure you will not incurr any further charges after the lab. 
+At the end of the lab, please make sure you follow the instructions for [cleaning up your environment](Clean_up.pdf). This will make sure you will not incur any further charges after the lab. 
 
 Disclaimer:
 
