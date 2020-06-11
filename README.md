@@ -18,7 +18,7 @@ The lab includes the following sections:
 
 Go ahead and click the first link of the list above to start with your first lab! 
 
-### Optional labs
+## Optional labs
 
 If you are interested in the topic of responsible ML, then check out [Fairlearn on GitHub](https://github.com/fairlearn/fairlearn). To get started, run the following command in a terminal window inside your Compute Instance's Jupyter Notebook:
 
@@ -40,7 +40,7 @@ In case you run into issues, consider executing the two following commands in in
 
 ## Clean up
 
-At the end of the lab, please make sure you follow the instructions for [cleaning up your environment](Clean_up.pdf). This will make sure you will not incur any further charges after the lab. 
+**At the end of the lab, please make sure you follow the instructions for [cleaning up your environment](Clean_up.pdf). This will make sure you will not incur any further charges after the lab.**
 
 Disclaimer:
 
