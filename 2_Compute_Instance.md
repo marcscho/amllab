@@ -44,7 +44,11 @@ This should bring you to the Jupyter Notebook home page. Note that the Notebook 
 
 Whilst you may also upload content manually via the Jupyter Notebook home page, the fastest way load all required content for this lab is by cloning this very git repository. 
 
-To do so, click the *New* button in the top right corner of the Jupyter home page and then select *Terminal*. This will open a separate tab in your browser with a terminal window. Once the terminal is ready, type in the following command and hit the *Enter* key on your keyboard to start the process:
+To do so, click the *New* button in the top right corner of the Jupyter home page and then select *Terminal*. 
+
+<img src = "/images/new-terminal.jpg" width = 450>
+
+This will open a separate tab in your browser with a terminal window. Once the terminal is ready, type in the following command and hit the *Enter* key on your keyboard to start the process:
 
 ```
 git clone https://github.com/marcscho/amllab
@@ -52,8 +56,10 @@ git clone https://github.com/marcscho/amllab
 
 ## Next Steps
 
-From ther Jupyter Notebook home page in your Compute Instance, please open the notebook entitled 3_Training_and_Logging.ipynb and follow the instructions provided therein to build your first python based ML model of the day.
+From ther Jupyter Notebook home page in your Compute Instance, please open the notebook entitled **3_Creating_dataset.ipynb** and follow the instructions provided therein to create a dataset in Azure ML.
 
 Please go through all the notebooks cell by cell and don’t run everything at once – your learning experience will be orders of magnitude greater. 
 
-If this is your first time working with Jupyter Notebooks, note that you can run the code within an individual cell and advance the cursor to the next cell with Shift + Enter on your keyboard. A cell can contain multiple lines of code, all of which will be executed when Shift + Enter are pressed. Alternatively, you can press Ctrl + Enter to also run a cell but not advance the cursor. More details about commands in Jupyter Notebook are available in [this cheatsheet](https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf), courtesy of edureka.
+If this is your first time working with Jupyter Notebooks, note that you can run the code within an individual cell and advance the cursor to the next cell with Shift + Enter on your keyboard. A cell can contain multiple lines of code, all of which will be executed when Shift + Enter are pressed. Alternatively, you can press Ctrl + Enter to also run a cell but not advance the cursor. 
+
+More details about commands in Jupyter Notebook are available in [this cheatsheet](https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf), courtesy of edureka.
