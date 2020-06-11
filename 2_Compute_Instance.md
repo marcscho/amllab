@@ -22,7 +22,7 @@ Specify a name for your Compute Instance and choose a VM size that is suitable f
 
 Click the VM type drop-down to browse the list of all available VM sizes and select a VM size different from the default. In general, consider the data volume available for training and compare it to the amount of memory (RAM) the VM has available as python will attempt to hold the entire dataset in memory to speed up computations. Also, consider using VM types that include GPUs when expecting to train large deep neural networks to speed up training times. 
 
-Note that bigger VMs with more memory and CPUs will result in higher charges to your Azure subscription. More information on VM pricing can be found here. The default VM size STANDARD_D3_V2 with 4 vCPUs and 14 GB of RAM will suffice for our lab. Please also ensure that you choose a VM size for which you still have quota left. In case you choose a VM type with 0 quota left, the provisioning will fail.
+Note that bigger VMs with more memory and CPUs will result in higher charges to your Azure subscription. More information on VM pricing can be found [here](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/). The default VM size STANDARD_D3_V2 with 4 vCPUs and 14 GB of RAM will suffice for our lab. Please also ensure that you choose a VM size for which you still have quota left. In case you choose a VM type with 0 quota left, the provisioning will fail.
 
 <img src = "/images/ci-vm-sizes.jpg" width = 700>
 
@@ -52,8 +52,8 @@ git clone https://github.com/marcscho/amllab
 
 ## Next Steps
 
-From your Jupyter Notebook home page, please open the notebook entitled 3_Training_and_Logging.ipynb and follow the instructions provided therein to build your first python based ML model of the day.
+From ther Jupyter Notebook home page in your Compute Instance, please open the notebook entitled 3_Training_and_Logging.ipynb and follow the instructions provided therein to build your first python based ML model of the day.
 
 Please go through all the notebooks cell by cell and don’t run everything at once – your learning experience will be orders of magnitude greater. 
 
-If this is your first time working with Jupyter Notebooks, note that you can run the code within an individual cell and advance the cursor to the next cell with Shift + Enter on your keyboard. A cell can contain multiple lines of code, all of which will be executed when Shift + Enter are pressed. Alternatively, you can press Ctrl + Enter to also run a cell but not advance the cursor.
+If this is your first time working with Jupyter Notebooks, note that you can run the code within an individual cell and advance the cursor to the next cell with Shift + Enter on your keyboard. A cell can contain multiple lines of code, all of which will be executed when Shift + Enter are pressed. Alternatively, you can press Ctrl + Enter to also run a cell but not advance the cursor. More details about commands in Jupyter Notebook are available in [this cheatsheet](https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf), courtesy of edureka.
