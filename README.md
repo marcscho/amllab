@@ -13,8 +13,28 @@ The lab includes the following sections:
 * [Lab 4 - Model training and experiment logging](4_Model_Training_and_Experiment_Logging.ipynb)
 * [Lab 5 - Automated ML on Remote Compute](5_AutoML_Remote_Compute.ipynb)
 * [Lab 6 - Model deployment](6_Deploy.ipynb)
-* [Lab 7 - Responsible ML with Fairlearn](fairlearn/7_Responsible_ML_with_Fairlearn.ipynb)
 
+### Optional labs
+
+If you are interested in the topic of responsible ML, then check out [Fairlearn on GitHub](https://github.com/fairlearn/fairlearn). To get started, run the following command in a terminal window inside your Compute Instance's Jupyter Notebook:
+
+```
+git clone https://github.com/fairlearn/fairlearn
+```
+
+To get an understanding of Fairlearn's capabilities, run through the notebook entitled **Grid Search for Binary Classification.ipynb** which includes a similar dataset to the one you have used in prior labs. 
+
+In case you run into issues, consider executing the two following commands in individual notebook cells and afterwards restarting the notebook kernel.
+
+```
+!pip install fairlearn --no-dependencies
+```
+
+```
+!pip install --upgrade sklearn --force
+```
+
+## Clean up
 
 At the end of the lab, please make sure you follow the instructions for [cleaning up your environment](Clean_up.pdf). This will make sure you will not incurr any further charges after the lab. 
 
