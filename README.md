@@ -20,6 +20,8 @@ Go ahead and click the first link of the list above to start with your first lab
 
 ## Optional labs
 
+### Fairlearn
+
 If you are interested in the topic of responsible ML, then check out [Fairlearn on GitHub](https://github.com/fairlearn/fairlearn). To get started, run the following command in a terminal window inside your Compute Instance's Jupyter Notebook:
 
 ```
