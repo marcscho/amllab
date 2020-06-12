@@ -1,6 +1,6 @@
 # Lab 2 - Working with Compute Instances
 
-One of the most useful aspects of an Azure ML studio is its ability to do logging of measures of interest which will be covered in the next lab. Through this, for example, it is  ossible to log how a model's performance metrics develop iteration by iteration.
+One of the most useful aspects of an Azure ML studio is its ability to do logging of measures of interest which will be covered in the next lab. Through this, for example, it is possible to log how a model's performance metrics develop iteration by iteration.
 
 Before taking advantage of this capability, however, we will set up a Compute Instnace to run our python code in. Even though all the features of Azure ML could be worked with from a local python runtime on your machine, for the purpose of this series of labs we will work with the Compute Instance to ensure all participant run the same version of python and the libraries required. 
 
