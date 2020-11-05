@@ -2,7 +2,7 @@
 
 Azure Machine Learning service provides SDKs and services to quickly train and deploy machine learning models, improve productivity and costs with autoscaling compute & pipelines. Use these capabilities with open-source Python frameworks, such as PyTorch, TensorFlow, and scikit-learn.
 
-Full documentation is available at https://docs.microsoft.com/en-us/azure/machinelearning/service.
+Full documentation is available at https://docs.microsoft.com/en-us/azure/machine-learning/.
 
 In order to take advantage of the wide array of functionalities that Azure ML Service provides, first the service must be provisioned in Azure.
 
