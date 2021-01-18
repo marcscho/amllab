@@ -13,7 +13,7 @@ def init():
 
 def run(raw_data):
     try:
-        data = json.loads(raw_data)['data']
+        data = pd.read_json(raw_data)
         input_df = pd.DataFrame.from_dict(data)
         proba = model.predict_proba(input_df)
         result = {"predict_proba":proba.tolist()}
