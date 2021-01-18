@@ -1,9 +1,3 @@
-""" scoring_step.py: """
-
-__date__ = '10/12/2020'
-__author__ = 'jrie'
-__email__ = 'jriedo@it-logix.ch'
-
 import os
 import pickle
 import joblib
@@ -11,6 +5,7 @@ import argparse
 import pandas as pd
 from azureml.core.run import Run
 from azureml.core.model import Model
+from sklearn.preprocessing import LabelEncoder
 
 # load arguments
 parser = argparse.ArgumentParser("preprocess")
@@ -38,8 +33,7 @@ out = pipeline['classifier'].predict(features)
 if args.result_data_path is not None:
     os.makedirs(args.result_data_path, exist_ok=True)
     print(f"{args.result_data_path} created")
-data['prediction'] = out
-data.to_csv(f'{args.result_data_path}/result_data.csv')
-
-
-
+le = LabelEncoder()
+le.fit(data['Risk'])
+data['prediction'] = le.inverse_transform(out)
+data.to_csv(f'{args.result_data_path}/result_data.csv', index=False)

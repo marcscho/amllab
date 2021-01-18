@@ -1,9 +1,3 @@
-""" preprocessing_step.py: """
-
-__date__ = '10/12/2020'
-__author__ = 'jrie'
-__email__ = 'jriedo@it-logix.ch'
-
 import os
 import pickle
 import joblib
@@ -34,4 +28,4 @@ if args.intermediate_data_path is not None:
     os.makedirs(args.intermediate_data_path, exist_ok=True)
     print(f"{args.intermediate_data_path} created")
 pickle.dump(out, open(f"{args.intermediate_data_path}/preprocessed_features.pkl", "wb" ) )
-data.to_csv(f'{args.intermediate_data_path}/preprocessed_data.csv')
+data.to_csv(f'{args.intermediate_data_path}/preprocessed_data.csv', index=False)
